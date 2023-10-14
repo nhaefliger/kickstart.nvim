@@ -178,11 +178,7 @@ require('lazy').setup({
     'lukas-reineke/indent-blankline.nvim',
     -- Enable `lukas-reineke/indent-blankline.nvim`
     -- See `:help indent_blankline.txt`
-<<<<<<< HEAD
-    --main = "ibl",
-=======
     main = 'ibl',
->>>>>>> 646080909ce64db4b2021b49e3503e731c7dcf4d
     opts = {},
   },
 
@@ -218,14 +214,6 @@ require('lazy').setup({
     },
     build = ':TSUpdate',
   },
-  {
-    'mrcjkb/haskell-tools.nvim',
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-    },
-    version = '^2', -- Recommended
-    ft = { 'haskell', 'lhaskell', 'cabal', 'cabalproject' },
-  }
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
   --       These are some example plugins that I've included in the kickstart repository.
